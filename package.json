@@ -2,10 +2,6 @@
   "name": "template-demo",
   "private": true,
   "version": "0.0.0",
-  "author": {
-    "name": "PawaOx4th",
-    "email": "pawaox4th@gmail.com"
-  },
   "type": "module",
   "publishConfig": {
     "access": "public",
@@ -13,8 +9,7 @@
   },
   "license": "MIT",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "exports": {
     ".": {
@@ -28,7 +23,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && tsup",
     "preview": "vite preview"
   },
   "devDependencies": {
